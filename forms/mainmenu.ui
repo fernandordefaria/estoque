@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QMainWindow" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>748</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema de Estoque</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resource/icons.qrc">
+    <normaloff>:/imagens/icons/1493109010_inventory-maintenance.png</normaloff>:/imagens/icons/1493109010_inventory-maintenance.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>751</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>748</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="menuCadastros">
+    <property name="title">
+     <string>Cadastros</string>
+    </property>
+    <addaction name="actUser"/>
+    <addaction name="actProd"/>
+    <addaction name="actTec"/>
+   </widget>
+   <addaction name="menuCadastros"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actOs"/>
+   <addaction name="actionactFaturamento"/>
+   <addaction name="actProd"/>
+   <addaction name="actClie"/>
+   <addaction name="separator"/>
+   <addaction name="actUser"/>
+   <addaction name="actTec"/>
+   <addaction name="separator"/>
+   <addaction name="actLogout"/>
+   <addaction name="actSair"/>
+  </widget>
+  <action name="actUser">
+   <property name="icon">
+    <iconset resource="../resource/icons.qrc">
+     <normaloff>:/imagens/icons/acessoclientes.png</normaloff>
+     <normalon>:/imagens/1493108886_Accept-Male-User.png</normalon>:/imagens/icons/acessoclientes.png</iconset>
+   </property>
+   <property name="text">
+    <string>Usuários</string>
+   </property>
+   <property name="toolTip">
+    <string>Usuários</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+U</string>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actProd">
+   <property name="icon">
+    <iconset resource="../resource/icons.qrc">
+     <normaloff>:/imagens/icons/1493109065_product.png</normaloff>
+     <normalon>:/imagens/1493109059_product.png</normalon>:/imagens/icons/1493109065_product.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cadastro de Produtos</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+P</string>
+   </property>
+  </action>
+  <action name="actOs">
+   <property name="icon">
+    <iconset resource="../resource/icons.qrc">
+     <normaloff>:/imagens/icons/1493108748_order-history.png</normaloff>:/imagens/icons/1493108748_order-history.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ordem de Serviço</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+Shift+S</string>
+   </property>
+  </action>
+  <action name="actClie">
+   <property name="icon">
+    <iconset resource="../resource/icons.qrc">
+     <normaloff>:/imagens/icons/User.png</normaloff>:/imagens/icons/User.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clientes</string>
+   </property>
+   <property name="toolTip">
+    <string>Clientes</string>
+   </property>
+  </action>
+  <action name="actTec">
+   <property name="icon">
+    <iconset resource="../resource/icons.qrc">
+     <normaloff>:/imagens/icons/tecnico.png</normaloff>:/imagens/icons/tecnico.png</iconset>
+   </property>
+   <property name="text">
+    <string>Técnico</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+Shift+T</string>
+   </property>
+  </action>
+  <action name="actLogout">
+   <property name="icon">
+    <iconset resource="../resource/icons.qrc">
+     <normaloff>:/imagens/icons/sign-out-logout-icon-0.png</normaloff>:/imagens/icons/sign-out-logout-icon-0.png</iconset>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </action>
+  <action name="actSair">
+   <property name="icon">
+    <iconset resource="../resource/icons.qrc">
+     <normaloff>:/imagens/icons/exit.png</normaloff>:/imagens/icons/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionactFaturamento">
+   <property name="icon">
+    <iconset resource="../resource/icons.qrc">
+     <normaloff>:/imagens/icons/fineceiro.png</normaloff>:/imagens/icons/fineceiro.png</iconset>
+   </property>
+   <property name="text">
+    <string>actFaturamento</string>
+   </property>
+   <property name="toolTip">
+    <string>Faturamento</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+Shift+F</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../resource/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

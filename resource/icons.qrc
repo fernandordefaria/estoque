@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../imagens/fundo/tecnologia.png</file>
+        <file>../imagens/icons/1493108694_Add-Male-User.png</file>
+        <file>../imagens/icons/1493108723_remove-from-database.png</file>
+        <file>../imagens/icons/1493108728_Search-Male-User.png</file>
+        <file>../imagens/icons/1493108743_Edit-Male-User.png</file>
+        <file>../imagens/icons/1493108748_order-history.png</file>
+        <file>../imagens/icons/1493108753_Remove-Male-User.png</file>
+        <file>../imagens/icons/1493108765_accept-database.png</file>
+        <file>../imagens/icons/1493108886_Accept-Male-User.png</file>
+        <file>../imagens/icons/1493108998_product-sales-report.png</file>
+        <file>../imagens/icons/1493109005_inventory-maintenance.png</file>
+        <file>../imagens/icons/1493109010_inventory-maintenance.png</file>
+        <file>../imagens/icons/1493109016_Process-Accept.png</file>
+        <file>../imagens/icons/1493109049_ordering.png</file>
+        <file>../imagens/icons/1493109053_Package-Download.png</file>
+        <file>../imagens/icons/1493109059_product.png</file>
+        <file>../imagens/icons/1493109065_product.png</file>
+        <file>../imagens/icons/1493238513_Check.png</file>
+        <file>../imagens/icons/1493238521_Next.png</file>
+        <file>../imagens/icons/1493238524_Remove.png</file>
+        <file>../imagens/icons/1493238528_Save.png</file>
+        <file>../imagens/icons/1493332782_mail-delete.png</file>
+        <file>../imagens/icons/1493332785_button_cancel.png</file>
+        <file>../imagens/icons/acessoclientes.png</file>
+        <file>../imagens/icons/add-icon-1.png</file>
+        <file>../imagens/icons/categotias.png</file>
+        <file>../imagens/icons/editar.png</file>
+        <file>../imagens/icons/exit.png</file>
+        <file>../imagens/icons/fineceiro.png</file>
+        <file>../imagens/icons/reports.png</file>
+        <file>../imagens/icons/sign-out-logout-icon-0.png</file>
+        <file>../imagens/icons/tecnico.png</file>
+        <file>../imagens/icons/User.png</file>
+    </qresource>
+</RCC>
