@@ -13,13 +13,12 @@ Login::~Login(){
 bool Login::resNome(const QString &nome, const QString &senha){
     try{
         query->exec("SELECT * FROM usuarios WHERE nome='"+nome+"' AND senha='"+senha+"' ");
+        return true;
     }catch(QException e){
         qDebug() << "Erro ao tentar acessar o nome" << query->lastError();
-        return false;
         e.raise();
+        return false;
     }
-
-    return true;
 }
 
 QSqlQuery *Login::getQuery(){

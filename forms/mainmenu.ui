@@ -44,7 +44,7 @@
      <x>0</x>
      <y>0</y>
      <width>748</width>
-     <height>19</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="nativeMenuBar">
@@ -74,7 +74,7 @@
     <bool>false</bool>
    </property>
    <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
+    <enum>LeftToolBarArea</enum>
    </attribute>
    <attribute name="toolBarBreak">
     <bool>false</bool>
