@@ -80,3 +80,18 @@ create table modulesgroup(
 	foreign key(modules) references modules(id)
 	foreign key(usergroup) references usergroup(id)
 );
+
+drop table menu;
+create table menu(
+	id serial primary key,
+	name varchar(30) not null,
+	
+);
+
+-- Cria a tabela de UIs
+drop table ui;
+create table ui(
+	id serial primary key,
+	name varchar(30) not null,
+	path varchar(30) not null
+);

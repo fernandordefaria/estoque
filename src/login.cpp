@@ -1,6 +1,7 @@
 #include "login.h"
 #include <QException>
 #include <QDebug>
+#include "log.h"
 
 Login::Login(){
     query = new QSqlQuery();
