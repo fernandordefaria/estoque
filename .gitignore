@@ -1,1 +1,4 @@
 Estoque.pro.user
+bin
+.docker
+.gitignore
