@@ -24,6 +24,7 @@ SOURCES += src/main.cpp\
     src/log.cpp \
     src/form_cados.cpp \
     src/form_cadtec.cpp \
+    src/mvc/login.cpp \
     src/utils/permissao.cpp \
     src/produtos.cpp \
     src/base_form.cpp \
@@ -55,6 +56,7 @@ HEADERS  += src/mainmenu.h \
     src/log.h \
     src/form_cados.h \
     src/form_cadtec.h \
+    src/mvc/login.h \
     src/utils/permissao.h \
     src/datedelegate.h \
     src/dialog_login.h \
